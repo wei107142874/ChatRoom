@@ -1,0 +1,29 @@
+﻿body, input, select, div, span, img {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 黑体;
+    font-size: 14px;
+    font-weight: bold;
+    color: #202020;
+    background-image:url("../Images/zc.jpg");
+}
+
+#content {
+    background-image: url("../Images/bj1.jpg");
+}
+
+#Headportrait1 {
+    height: 100px;
+    width: 100px;
+}
+
+#Headportrait {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 240px;
+}
+.c1{ margin-left:50px;}

@@ -1,0 +1,14 @@
+E:\140016539魏勇\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.dll
+E:\140016539魏勇\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.pdb
+E:\140016539魏勇\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ResolveAssemblyReference.cache
+E:\140016539魏勇\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.dll
+E:\140016539魏勇\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.pdb
+E:\学习文档\实训\12-21\12-21\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.dll
+E:\学习文档\实训\12-21\12-21\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.pdb
+E:\学习文档\实训\12-21\12-21\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.dll
+E:\学习文档\实训\12-21\12-21\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.pdb
+E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.dll
+E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.pdb
+E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.csprojResolveAssemblyReference.cache
+E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.dll
+E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.pdb

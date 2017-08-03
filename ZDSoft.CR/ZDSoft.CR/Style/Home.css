@@ -1,0 +1,14 @@
+﻿body,input,select,div,span,img{margin: 0px;padding: 0px;}
+body{
+    font-family: 黑体;
+    font-size: 14px;
+    font-weight: bold;
+    color: #202020;
+}
+#Content{
+    
+    margin-top:20px;
+    background-color:red;
+    height:130px;
+    width:160px;
+}
