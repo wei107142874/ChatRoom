@@ -17,7 +17,7 @@ namespace ZDSoft.CR
         protected void Page_Load(object sender, EventArgs e)
         {
             int a = 1;
-            int b = 2;
+            int c = 2;
         }
 
         protected void btnSever_Click(object sender, EventArgs e)
