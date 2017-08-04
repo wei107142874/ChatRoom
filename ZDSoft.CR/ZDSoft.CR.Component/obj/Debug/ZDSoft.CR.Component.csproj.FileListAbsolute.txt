@@ -31,3 +31,14 @@ E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Serv
 E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Component\obj\Debug\ZDSoft.CR.Component.csprojResolveAssemblyReference.cache
 E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Component\obj\Debug\ZDSoft.CR.Component.dll
 E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Component\obj\Debug\ZDSoft.CR.Component.pdb
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Component.dll
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Component.pdb
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Domain.dll
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Manager.dll
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Service.dll
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Domain.pdb
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Manager.pdb
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\bin\Debug\ZDSoft.CR.Service.pdb
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\obj\Debug\ZDSoft.CR.Component.csprojResolveAssemblyReference.cache
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\obj\Debug\ZDSoft.CR.Component.dll
+D:\公司\Repos\ZDSoft.CR\ZDSoft.CR.Component\obj\Debug\ZDSoft.CR.Component.pdb
