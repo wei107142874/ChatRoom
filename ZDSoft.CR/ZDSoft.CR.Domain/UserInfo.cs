@@ -10,12 +10,10 @@ namespace ZDSoft.CR.Domain
     {
         public UserInfo(){ }
 
-        public UserInfo(string name, string connectionId)
+        public UserInfo(string connectionId)
         {
-            this.UserName = name;
             this.ConnectionID = connectionId;
         }
-
 
         [Key]
         public string ConnectionID { get; set; }

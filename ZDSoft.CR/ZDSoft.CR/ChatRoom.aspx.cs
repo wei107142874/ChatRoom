@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Timers;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
 using ZDSoft.CR.Domain;
 using ZDSoft.CR.Helpers;
 using ZDSoft.CR.Service;
@@ -28,7 +22,6 @@ namespace ZDSoft.CR
                 BindsysUser();
                 ViewState["RoomID"] = Convert.ToInt32(Request.QueryString["rid"]);
                 //time(null, null);
-                
             }
         }
 

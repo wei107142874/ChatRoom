@@ -23,9 +23,9 @@ namespace ZDSoft.CR.Hubs
             var user = users.Where(s => s.ConnectionID == connectionId).FirstOrDefault(); 
             if (user != null)
             {
-                Clients.Client(connectionId).addMessage(message + "" + DateTime.Now, Context.ConnectionId);
+                Clients.Client(connectionId).addMessage(message, Context.ConnectionId);
                 //给自己发送，把用户的ID传给自己  
-                Clients.Client(Context.ConnectionId).addMessage(message + "" + DateTime.Now, connectionId);
+                Clients.Client(Context.ConnectionId).addMessage(message, connectionId);
             }
             else
             {
@@ -56,7 +56,7 @@ namespace ZDSoft.CR.Hubs
             //判断用户是否存在，否则添加集合  
             if (user == null)
             {
-                user = new UserInfo("", Context.ConnectionId);
+                user = new UserInfo(Context.ConnectionId);
                 users.Add(user);
             }
             return base.OnConnected();

@@ -2,6 +2,8 @@
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <%--<meta http-equiv="refresh" content="5"/> --%>
+    <link href="Style/cssReset.css" rel="stylesheet" />
+    <link href="Style/chatRoom.css" rel="stylesheet" />
     <style>
         #talkcount {
             height: 400px;
@@ -40,6 +42,7 @@
             margin: 20px;
         }
     </style>   
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:TextBox ID="tb_roomId" runat="server"></asp:TextBox>
@@ -110,7 +113,6 @@
             chat.client.getUsers = function (data) {
                 if (data) {
                     var json = $.parseJSON(data);
-
                     console.info(json);
                     $("#users").html(" ");
                     for (var i = 0; i < json.length; i++) {
@@ -131,7 +133,7 @@
             }
 
             //获取用户名称  
-            $('#userName').html(prompt('请输入您的名称', ''));
+            //$('#userName').html(prompt('请输入您的名称', ''));
             //连接成功后获取自己的信息  
             $.connection.hub.start().done(function () {
                 chat.server.getName($('#userName').html());
@@ -166,15 +168,59 @@
             $(data).prev().val("");
         }  
     </script>  
+    <div class="header">
+		<div class="header_portrait">
+			<img class="portrait" src="Images/head_portrait.png" alt="头像" />
+			<!-- 昵称 -->
+			<p class="nc">夏天</p>
+			<!-- 个性签名 -->
+			<p class="gq" style="margin-top: 10px;">欲穷千里目</p>
+		</div>
+	</div>
+
+	<div class="content">
+		<!-- 列表 -->
+		<div class="list">
+			<div class="head">
+				<h1>联系人</h1>
+				<span class="search"></span>
+			</div>
+			<div style="overflow-y: scroll; height: 495px;">
+				<div class="friends">
+			    <img src="Images/quannengqiang.png" alt="全能墙" class="portrait" />
+			        <p class="nc">全能墙</p>
+			        <p class="statu">[在线]</p>
+				</div>		
+			</div>
+		</div>
+
+		<!-- 窗口 -->
+		<div class="chatWindow">
+			<div class="head">
+				<h1>全能墙</h1>
+				<span class="close"></span>
+			</div>
+			<div class="chatcontent">
+				<footer class="inputtool">
+					
+				</footer>
+			</div>
+		</div>
+
+	</div>
+
+
+
     <div>  
         <div>名称：<p id="userName"></p></div>  
         <div>ConnectionID:<p id="conId"></p></div>  
       
         <div style="width:25%;border:1px solid #ff0000">  
             <div>在线用户列表</div>  
-            <ul id="users"></ul>  
+            <ul id="users"></ul>
         </div>  
-        <div id="userBox">  
+        <div id="userBox">
+
         </div>  
     </div>  
 </asp:Content>

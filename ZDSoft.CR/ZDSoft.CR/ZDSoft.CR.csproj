@@ -101,7 +101,11 @@
     <Content Include="Images\bj5.jpg" />
     <Content Include="Images\chat.jpg" />
     <Content Include="Images\chat1.jpg" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\head_portrait.png" />
     <Content Include="Images\muban.jpg" />
+    <Content Include="Images\quannengqiang.png" />
+    <Content Include="Images\search.png" />
     <Content Include="Images\talk.png" />
     <Content Include="Images\zc.jpg" />
     <Content Include="Images\login1.jpg" />
@@ -120,6 +124,8 @@
     <Content Include="Scripts\jquery-1.6.4.min.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.js" />
     <Content Include="Scripts\jquery.signalR-2.2.0.min.js" />
+    <Content Include="Style\chatRoom.css" />
+    <Content Include="Style\cssReset.css" />
     <Content Include="Style\Home.css" />
     <Content Include="Style\Login.css" />
     <Content Include="Registered.aspx" />
