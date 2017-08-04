@@ -22,7 +22,7 @@ namespace ZDSoft.CR
         protected void btnSever_Click(object sender, EventArgs e)
         {
             //MD5解密
-            this.tbxPassword.Text = Security.MD5(this.tbxPassword.Text);
+            this.tbxPassword.Text = Security.MD5("123456");
             string userName = tbxUserName.Text;
             string password = tbxPassword.Text;
             Session["UserName"] = userName;

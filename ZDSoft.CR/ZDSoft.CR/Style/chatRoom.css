@@ -1,4 +1,4 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 .header{
 	width: 1001px;
 	height: 49px;
@@ -58,7 +58,7 @@
 	display: inline-block;
 	line-height: 35px;
 	margin-top:4px;
-	background:url(../img/search.png);
+	background:url(../Images/search.png);
 	cursor:pointer;
 }
 
@@ -109,7 +109,7 @@
 	display: inline-block;
 	line-height: 35px;
 	margin-top:4px;
-	background:url(../img/close.png);
+	background:url(../Images/close.png);
 	margin-left: 205px;
 	cursor:pointer;
 }

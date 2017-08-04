@@ -45,7 +45,8 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:TextBox ID="tb_roomId" runat="server"></asp:TextBox>
+     <asp:Label ID="lb_roomId" runat="server" Text="Label"></asp:Label>
+     <asp:Label ID="lb_UserId" runat="server" Text="Label"></asp:Label>
      <div>
         <asp:Button ID="btn_leaveRoom" runat="server" Text="离开房间" OnClick="btn_leaveRoom_Click" />
         管理员：
@@ -92,6 +93,7 @@
     <script type="text/javascript">
         var clients = [];
         var chat;
+        var roomId = $("#ContentPlaceHolder1_lb_roomId").html();
         $(function () {
             chat = $.connection.ChatHub;
             console.info(chat);
@@ -114,9 +116,17 @@
                 if (data) {
                     var json = $.parseJSON(data);
                     console.info(json);
-                    $("#users").html(" ");
+                    $("#users").html("");
                     for (var i = 0; i < json.length; i++) {
-                        var html = '<li>用户名:' + json[i].UserName + '<input type="button" connectionId="' + json[i].ConnectionID + '"value="聊天" onclick="userChat(this)"/>';
+                        var html = "";
+                        if (json[i].RommId == roomId) {
+                            html += '<div class="friends">';
+                            html += '<img class="portrait" src=' + json[i].HeadUrl + ' alt="头像" />';
+                            html += ' <p class="nc">' + json[i].NickName + '</p>';
+                            html += ' <p class="statu">[在线]</p>';
+                            html += '</div>';
+                        }
+                        //var html = '<li>用户名:' + json[i].UserName + '<input type="button" connectionId="' + json[i].ConnectionID +   '"value="聊天" onclick="userChat(this)"/>';
                         $("#users").append(html);
                     }
                 }
@@ -136,7 +146,8 @@
             //$('#userName').html(prompt('请输入您的名称', ''));
             //连接成功后获取自己的信息  
             $.connection.hub.start().done(function () {
-                chat.server.getName($('#userName').html());
+                var userId = $("#ContentPlaceHolder1_lb_UserId").html();
+                chat.server.getName(userId, roomId);
             });
         });  
         //开始聊天  
@@ -185,12 +196,12 @@
 				<h1>联系人</h1>
 				<span class="search"></span>
 			</div>
-			<div style="overflow-y: scroll; height: 495px;">
-				<div class="friends">
+			<div id="users" style="overflow-y: scroll; height: 495px;">
+				<%--<div class="friends">
 			    <img src="Images/quannengqiang.png" alt="全能墙" class="portrait" />
 			        <p class="nc">全能墙</p>
 			        <p class="statu">[在线]</p>
-				</div>		
+				</div>	--%>	
 			</div>
 		</div>
 
@@ -217,7 +228,7 @@
       
         <div style="width:25%;border:1px solid #ff0000">  
             <div>在线用户列表</div>  
-            <ul id="users"></ul>
+            <%--<ul id="users"></ul>--%>
         </div>  
         <div id="userBox">
 

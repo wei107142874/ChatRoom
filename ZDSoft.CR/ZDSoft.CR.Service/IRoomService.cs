@@ -48,5 +48,6 @@ namespace ZDSoft.CR.Service
        int GetRoomIDUpdateRoomInfo(RoomInfo room);
 
        RoomUser GetRoomIDUserIDByRoomUser(int roomID, int userID);
+        List<RoomUser> GetRUByRoomId(int roomId);
     }
 }

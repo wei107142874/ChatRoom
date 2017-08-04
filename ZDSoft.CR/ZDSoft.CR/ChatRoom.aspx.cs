@@ -17,8 +17,10 @@ namespace ZDSoft.CR
                 {
                     Response.Redirect("Login.aspx");
                 }
-                tb_roomId.Style.Add("display", "none");
-                this.tb_roomId.Text = Request.QueryString["rid"];
+                lb_roomId.Style.Add("display", "none");
+                lb_UserId.Style.Add("display", "none");
+                this.lb_roomId.Text = Request.QueryString["rid"];
+                this.lb_UserId.Text = AppHelper.LoginedUser.UserID.ToString();
                 BindsysUser();
                 ViewState["RoomID"] = Convert.ToInt32(Request.QueryString["rid"]);
                 //time(null, null);
@@ -41,7 +43,7 @@ namespace ZDSoft.CR
                 userID = room.UserID;
 
                 UserInfo uid = DataFactory.CreateObject<IUserService>().GetUserIDByUserInfo(userID);
-                //lbNickName.Text = uid.NickName;
+                lbNickName.Text = uid.NickName;
             }
 
             if (userType == '2')

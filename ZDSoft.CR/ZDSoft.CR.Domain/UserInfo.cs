@@ -14,7 +14,7 @@ namespace ZDSoft.CR.Domain
         {
             this.ConnectionID = connectionId;
         }
-
+        public int RommId { get; set; }
         [Key]
         public string ConnectionID { get; set; }
         public int UserID { get; set; }
@@ -30,7 +30,7 @@ namespace ZDSoft.CR.Domain
         }
         public DateTime RegisteredDate { get; set; }
         public DateTime ZhuxiaoDate { get; set; }
-
+        
         public int ct { get; set; }
     }
 }

@@ -21,7 +21,7 @@
     <form id="form1" runat="server">
         <div id="sty1" style="background-image: url(Images/bj2.jpg);">
             <div id="content">
-                用户名：<asp:TextBox ID="tbxUserName" runat="server"></asp:TextBox><br />
+                用户名：<asp:TextBox ID="tbxUserName" runat="server">140016539</asp:TextBox><br />
                 <br />
                 <br />
                 密码：&nbsp;<asp:TextBox ID="tbxPassword" runat="server" TextMode="Password"></asp:TextBox><br />

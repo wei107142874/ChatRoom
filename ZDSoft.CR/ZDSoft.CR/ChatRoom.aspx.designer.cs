@@ -13,13 +13,22 @@ namespace ZDSoft.CR {
     public partial class ChatRoom {
         
         /// <summary>
-        /// tb_roomId 控件。
+        /// lb_roomId 控件。
         /// </summary>
         /// <remarks>
         /// 自动生成的字段。
         /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_roomId;
+        protected global::System.Web.UI.WebControls.Label lb_roomId;
+        
+        /// <summary>
+        /// lb_UserId 控件。
+        /// </summary>
+        /// <remarks>
+        /// 自动生成的字段。
+        /// 若要进行修改，请将字段声明从设计器文件移到代码隐藏文件。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_UserId;
         
         /// <summary>
         /// btn_leaveRoom 控件。

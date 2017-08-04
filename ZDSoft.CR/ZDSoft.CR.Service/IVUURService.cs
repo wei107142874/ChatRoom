@@ -15,5 +15,7 @@ namespace ZDSoft.CR.Service
         int GetRoomUserID_Update_userType(int roomuserID, char userType);
 
         VUUR GetRoomID_Select__VUUR(int roomID);
+
+        IList<VUUR> GetVUURByRoomId(int roomId);
     }
 }
