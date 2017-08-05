@@ -12,3 +12,8 @@ E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.
 E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.csprojResolveAssemblyReference.cache
 E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.dll
 E:\项目代码\聊天室\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.pdb
+D:\Source\Repos\ChatRoom\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.dll
+D:\Source\Repos\ChatRoom\ZDSoft.CR\ZDSoft.CR.Domain\bin\Debug\ZDSoft.CR.Domain.pdb
+D:\Source\Repos\ChatRoom\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.csprojResolveAssemblyReference.cache
+D:\Source\Repos\ChatRoom\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.dll
+D:\Source\Repos\ChatRoom\ZDSoft.CR\ZDSoft.CR.Domain\obj\Debug\ZDSoft.CR.Domain.pdb

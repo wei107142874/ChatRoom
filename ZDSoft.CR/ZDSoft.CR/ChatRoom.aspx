@@ -40,6 +40,8 @@
             margin: 20px;
         }
     </style>   
+<link href="Style/cssReset.css" rel="stylesheet" />
+<link href="Style/chatRoom.css" rel="stylesheet" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <asp:TextBox ID="tb_roomId" runat="server"></asp:TextBox>
@@ -152,7 +154,7 @@
             //debugger
             //  var connectionId = $(btnObj).parent().attr("connectionId");  
             $(btnObj).parent().remove();
-            //chat.server.exitChat(connectionId);  
+            //chat.server.exitChat(connectionId);
         }
         //发送消息  
         function sendMessage(data) {
@@ -167,7 +169,16 @@
         }  
     </script>  
     <div>  
-        <div>名称：<p id="userName"></p></div>  
+        <div class="header">
+		    <div class="header_portrait">
+			    <img class="portrait" src="img/head_portrait.png" alt="头像">
+			    <!-- 昵称 -->
+			    <p class="nc">夏天</p>
+			    <!-- 个性签名 -->
+			    <p class="gq" style="margin-top: 10px;">欲穷千里目</p>
+		    </div>
+	    </div>
+       <%-- <div>名称：<p id="userName"></p></div>  
         <div>ConnectionID:<p id="conId"></p></div>  
       
         <div style="width:25%;border:1px solid #ff0000">  
@@ -175,6 +186,6 @@
             <ul id="users"></ul>  
         </div>  
         <div id="userBox">  
-        </div>  
+        </div>  --%>
     </div>  
 </asp:Content>
