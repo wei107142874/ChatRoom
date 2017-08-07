@@ -157,7 +157,25 @@ namespace ZDSoft.CR.Manager
            return ru;
        }
 
-       public RoomUser GetUserIDRoomIDByRoomUser(int userID, int roomID)
+        public List<RoomUser> GetRUByRoomId(int roomId)
+        {
+            string sql = string.Format("Select * from RoomUser Where RoomID={1}", roomId);
+
+            List<RoomUser> ruList  =new List<RoomUser>();
+            using (SqlDataReader reader = SqlHelper.GetDataReader(CommandType.Text, sql))
+            {
+                while (reader.Read())
+                {
+                    RoomUser ru = new RoomUser();
+                    ru = new RoomUser();
+                    ru = RoomUsers(reader);
+                    ruList.Add(ru);
+                }
+            }
+            return ruList;
+        }
+
+        public RoomUser GetUserIDRoomIDByRoomUser(int userID, int roomID)
        {
            string sql = string.Format("Select * from RoomUser Where UserID={0} and RoomID={1}", userID,roomID);
 

@@ -33,5 +33,10 @@ namespace ZDSoft.CR.Component
        {
            return manager.GetRoomID_Select__VUUR(roomID);
        }
+
+        public IList<VUUR> GetVUURByRoomId(int roomId)
+        {
+            return manager.GetVUURByRoomId(roomId);
+        }
     }
 }

@@ -37,6 +37,24 @@ namespace ZDSoft.CR.Manager
             return vr;
         }
 
+        public IList<VUUR> GetVUURByRoomId(int roomID)
+        {
+            string sql = string.Format("select * from VUUR Where RoomID={0}", roomID);
+
+            IList<VUUR> vrList =new  List<VUUR>();
+            using (SqlDataReader reader = SqlHelper.GetDataReader(CommandType.Text, sql))
+            {
+                while (reader.Read())
+                {
+                    VUUR vr = new VUUR();
+                    vr = new VUUR();
+                    vr = VUURs(reader);
+                    vrList.Add(vr);
+                }
+            }
+            return vrList;
+        }
+
         public VUUR Select_MinRoomUserID(int roomID)
         {
             string sql = string.Format("select top(1) * from VUUR Where RoomID={0} and UserType!='3' and UserType!='4' order  by RoomUserID asc", roomID);

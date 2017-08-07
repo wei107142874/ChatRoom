@@ -173,6 +173,11 @@ namespace ZDSoft.CR.Component
         {
             return manager.GetRoomIDUserIDByRoomUser(roomID, userID);
         }
+
+        public List<RoomUser> GetRUByRoomId(int roomId)
+        {
+            return manager.GetRUByRoomId(roomId);
+        }
     }
 }
 
