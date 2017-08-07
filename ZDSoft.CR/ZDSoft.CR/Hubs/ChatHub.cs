@@ -56,7 +56,7 @@ namespace ZDSoft.CR.Hubs
             //判断用户是否存在，否则添加集合  
             if (user == null)
             {
-                user = new UserInfo("", Context.ConnectionId);
+                user = new UserInfo(Context.ConnectionId);
                 users.Add(user);
             }
             return base.OnConnected();
