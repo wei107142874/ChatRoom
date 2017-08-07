@@ -1,5 +1,4 @@
 # Windows
-*.dll
 ZDSoft.CR/.vs
-*Debug
-*obj
+*.dll
+bin

@@ -12,7 +12,7 @@ namespace ZDSoft.CR.Domain
 
         public UserInfo(string connectionId)
         {
-            this.ConnectionID = connectionId;
+            this.ConnectionID = connectionId; 
         }
         public int RommId { get; set; }
         [Key]
