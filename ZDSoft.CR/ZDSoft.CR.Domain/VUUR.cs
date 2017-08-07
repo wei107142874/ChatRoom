@@ -13,6 +13,5 @@ namespace ZDSoft.CR.Domain
        public char UserType { get; set; }
        public string UserName { get; set; }
        public string NickName { get; set; }
-        int A = 1;
     }
 }

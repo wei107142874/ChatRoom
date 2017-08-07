@@ -1,4 +1,5 @@
 # Windows
 ZDSoft.CR/.vs
-*.dll
+
 bin
+obj
