@@ -1,0 +1,119 @@
+﻿@charset "utf-8";
+.header{
+	width: 1001px;
+	height: 49px;
+	margin: 0 auto;
+}
+.header_portrait{
+	width: 210px;
+	padding: 9px 0 0 20px;
+	float: left;
+	font-size: 12px;
+}
+.header .portrait{
+	float: left;
+}
+.header_portrait p{
+	padding-left: 59px;
+}
+.content{
+	width: 1001px;
+	height: 542px;
+	margin: 0 auto;
+	margin-top: 34px;
+}
+.content .list{
+	width: auto;
+	height: 542px;
+	border: 1px solid black;
+	border-radius: 8px;
+	float: left;
+}
+.list .head{ 
+	height: 45px;
+	width: auto;
+	border-radius: 6px 6px 0 0;
+	background: linear-gradient(#505050 , #262626);
+	font-size: 18px;
+	line-height: 45px;
+}
+.list .head h1{
+	width: 154px;
+	height: 45px;
+	text-align: center;
+	display: block;
+	font-weight: 400;
+    font-size: 18px;
+    line-height: 45px;
+    text-align: center;
+    -webkit-box-flex: 15;
+    padding-left: 62px;
+    float: left;
+    font-weight: bold;
+    color: #F9F9F9;
+}
+.list .head .search{
+	width: 49px;
+	height: 35px;
+	display: inline-block;
+	line-height: 35px;
+	margin-top:4px;
+	background:url(../Images/search.png);
+	cursor:pointer;
+}
+
+
+.list .friends{
+	width: 280px;
+	height: 63px;
+	border-bottom: 1px solid #E3E3E3;
+	background-color: #F5F5F5;
+	cursor:pointer;
+}
+.list .friends .portrait{
+	padding: 10px;
+	float: left;
+}
+.list .friends .nc{
+	padding:10px 0 5px 0;
+}
+.statu{
+	font-size: 12px;
+	color: #B0B0B0;
+}
+.chatWindow{
+	width: 680px;
+	border: 1px solid black;
+	border-radius: 8px; 
+	float: left;
+	margin-left: 20px;
+}
+.chatWindow .head{
+	height: 45px;
+	font-size: 18px;
+	line-height: 45px;
+	border-radius: 6px 6px 0 0;
+	background: linear-gradient(#505050 , #262626);
+}
+.chatWindow .head h1{
+	height: 45px;
+	width: 90px;
+	margin-left: 295px;
+	color: #F9F9F9;
+	font-weight: bold;
+	float: left;
+}
+.chatWindow .head .close{
+	width: 79px;
+	height: 34px;
+	display: inline-block;
+	line-height: 35px;
+	margin-top:4px;
+	background:url(../Images/close.png);
+	margin-left: 205px;
+	cursor:pointer;
+}
+.chatWindow .chatcontent{
+	height: 495px;
+	width: 100%;
+}
