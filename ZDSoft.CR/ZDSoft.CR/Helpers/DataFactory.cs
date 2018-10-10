@@ -21,7 +21,7 @@ namespace ZDSoft.CR.Web
         /// 根据接口创建对象
         /// </summary>
         public static T CreateObject<T>()
-        {
+        { 
             string calssName = typeof(T).FullName;
             calssName = calssName.Substring(calssName.LastIndexOf(".") + 2);//获取服务名称
             calssName = calssName.Replace("Service", "");//获取对象名称
