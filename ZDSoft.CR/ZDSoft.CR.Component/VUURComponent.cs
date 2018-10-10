@@ -19,10 +19,11 @@ namespace ZDSoft.CR.Component
 
        public VUUR Select_MinRoomUserID(int roomID)
        {
+            int a = 10;
            return manager.Select_MinRoomUserID(roomID);
        }
 
-
+        
        public int GetRoomUserID_Update_userType(int roomuserID, char userType)
        {
            return manager.GetRoomUserID_Update_userType(roomuserID, userType);
