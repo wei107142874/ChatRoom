@@ -16,7 +16,7 @@ namespace ZDSoft.CR.Web
     {
         //程序集名称
         private static readonly string _AssemblyPath = "ZDSoft.CR.Component";
-
+         
         /// <summary>
         /// 根据接口创建对象
         /// </summary>
