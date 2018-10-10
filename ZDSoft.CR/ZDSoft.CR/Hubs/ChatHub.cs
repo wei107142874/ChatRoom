@@ -16,7 +16,7 @@ namespace ZDSoft.CR.Hubs
     {
         public static List<UserInfo> users = new List<UserInfo>();
 
-        //发送消息  
+        //发送消息   
         public void SendMessage(string connectionId, string message)
         {
             //Clients.All.hello();
