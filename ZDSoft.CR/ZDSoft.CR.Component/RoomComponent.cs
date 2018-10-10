@@ -24,7 +24,7 @@ namespace ZDSoft.CR.Component
         //}
         public int CreateRoom(RoomInfo room)
         {
-            return manager.CreateRoom(room);
+            return manager.CreateRoom(room); 
         }
 
         public RoomInfo UserIDrepetition(int userID)
