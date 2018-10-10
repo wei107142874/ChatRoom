@@ -19,7 +19,7 @@ namespace ZDSoft.CR.Component
 
        public VUUR Select_MinRoomUserID(int roomID)
        {
-            int a = 10;
+            int a = 1110; 
            return manager.Select_MinRoomUserID(roomID);
        }
 
